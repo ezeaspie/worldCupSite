@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A guide to the FIFA World Cup 2018 that will be played in Russia.">
+  <title>World Cup 2018 Hub</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Fauna+One|Patua+One" rel="stylesheet">
+</head>
+<body>
+    <ul>
+      <a class="highlight" href="/"><li class= 'selected nav-tab'>Home</li></a>
+      <a href="/tournament"><li class='nav-tab alt'>Tournament</li></a>
+      <a href="/matchinfo"><li class='nav-tab'>Fixtures & Results</li></a>
+      <a href="/teams"><li class='nav-tab alt'>Teams</li></a>
+      <a href="/qualification"><li class='nav-tab'>Qualification</li></a>
+    </ul>
+
+    <% include partials/navigation %>
+
+  <div class="container">
+    <header class='banner'>
+      <h1>Russia 2018</h1>
+      <h2>65 Matches. 32 Teams. 12 Venues. 6 Groups. 1 Trophy.</h2>
+    </header>
+    <section class='overview module'>
+      <h3>Overview</h3>
+        <figure>
+          <img alt="World Cup 2018 Russia Logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/1200px-2018_FIFA_World_Cup.svg.png">
+        </figure>
+        <p>Every four years, the world gathers to watch the greatest football players and teams compete against each other for the coveted World Cup. With matches being played inside beautiful stadiums packed with passionate fans, the world's biggest sporting tournament rarely dissapoints.</p>
+        <p>Between the the 14th of June and the 15th of July, 32 teams will compete in <span class="bold">Russia</span>, playing in cities like Moscow, Saint Petersburg, Kazan, and Sochi.</p>
+        <p>The teams come from far and wide representing each major region of the world ranging from North America to Asia. Featuring heavyweights like Germany, Brazil, France, and Spain as well as smaller, yet immensley talented countries like Panama, Iceland, and Morroco, the tournament is sure to provide only the highest quality of games.</p>
+        <p>Each team is sorted into a group of four where each team plays one another once. At the end of the three matches, the top two teams in each group advance to the knockout stages.</p>
+        <p>Each knockout fixture is hotly contested and brings the tournament closer and closer to the final in the <span class='bold'>Luzhuniki Stadium</span> in Moscow. Here, the world will find out which country is the greatest in the world.</p>
+        <p>Get to know the teams, stadiums, and other information about the tournament before it begins. Below, you will find links to lead you to the information you want to know.</p>
+    </section>
+
+    <a href="/tournament">
+    <section class="module">
+      <h3>The Tournament</h3>
+        <p>Learn about how the tournament's rich history, how it's structured, and the stadiums where matches will be played.</p>
+    </section>
+    </a>
+
+    <a href="/matchinfo">
+      <section class="module">
+        <h3>Results and Fixtures</h3>
+          <p>Need to know where your team stands? Need to know the latest results? Click here to be taken to the fixtures and results page, where you will get all the group details and team schedules and scores.</p>
+      </section>
+    </a>
+
+    <a href="/teams">
+    <section class="module">
+      <h3>The Teams</h3>
+        <p>Get to know the 32 teams who qualified for Russia 2018.</p>
+        <p>Learn about each team's players, which to watch out for, what tactics they might employ, and a brief history of each team at the World Cup.</p>
+    </section>
+    </a>
+
+    <a href="/qualification">
+    <section class="module">
+      <h3>Road to Russia</h3>
+      <div class="innerModule">
+        <p>Each team in thr tournament had a tough road to get to the World Cup. Learn about how each team punched their ticket to Russia and how the qualification process works around the world.</p>
+      </div>
+    </section>
+    </a>
+
+    <section class="module hideInner">
+    <h3>Tables</h3>
+    <div class="tables">
+      <div class="innerModule group0 table">
+        <%- tableData[0] %>
+      </div>
+      <div class="innerModule group1 table">
+        <%- tableData[1] %>
+      </div>
+      <div class="innerModule group2 table">
+        <%- tableData[2] %>
+      </div>
+      <div class="innerModule group3 table">
+        <%- tableData[3] %>
+      </div>
+      <div class="innerModule group4 table">
+        <%- tableData[4] %>
+      </div>
+      <div class="innerModule group5 table">
+        <%- tableData[5] %>
+      </div>
+      <div class="innerModule group6 table">
+        <%- tableData[6] %>
+      </div>
+      <div class="innerModule group7 table">
+        <%- tableData[7] %>
+      </div>
+    </div>
+  </section>
+
+    <footer>
+    </footer>
+  </div>
+</body>
+</html>

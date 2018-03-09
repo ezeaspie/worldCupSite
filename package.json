@@ -1,0 +1,24 @@
+{
+  "name": "WorldCupSite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "node-fetch": "^2.1.1",
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
